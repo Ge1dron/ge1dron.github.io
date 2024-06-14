@@ -1,0 +1,22 @@
+body {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.interesting {
+    display: flex;
+    justify-content: flex-end;
+    width: 161px;
+    height:  112px;
+}
+.in {
+    display: flex;
+    justify-content: flex-end;
+}
+.giga {
+    font-family: "Pacifico", cursive;
+}
+a {
+    color: #b0cf238f;
+    text-decoration: none;
+}
