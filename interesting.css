@@ -2,7 +2,6 @@ body {
     background: url("https://img0.joyreactor.cc/pics/post/%D0%B3%D0%B8%D1%84%D0%BA%D0%B8-%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB-%D1%80%D0%B8%D0%BA%D0%B0%D1%80%D0%B4%D0%BE-%D0%BC%D0%B8%D0%BB%D0%BE%D1%81-5240146.gif");
     background-size: cover;
     color: #ffffff;
-
 }
 
 .text{
@@ -20,10 +19,20 @@ body {
 .in {
     display: flex;
     justify-content: flex-end;
-    
+    flex-direction: row;
 }
 
 a {
-    color: #3e10d7;
+    color: #554d6e;
     text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-size: contain;
+    }
+
+    .in {
+        flex-direction: column-reverse;
+    }
 }
