@@ -4,16 +4,25 @@ body {
     color: #ffffff;
 
 }
-.interesting { 
-    display: block;
-    width:  50%;
-    margin: 7px 0 7px 7px; 
+
+.text{
+    flex: 3;
 }
+
+.img {
+    flex: 1;
+}
+
+.interesting { 
+    width:  100%;
+}
+
 .in {
     display: flex;
     justify-content: flex-end;
     
 }
+
 a {
     color: #3e10d7;
     text-decoration: none;
